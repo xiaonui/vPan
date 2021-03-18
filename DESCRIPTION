@@ -16,7 +16,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Depends: 
-    R (>= 4.0.0)
+    R (>= 3.6.0)
 Imports:
     ggplot2 (>= 3.3.2),
     snowfall,
