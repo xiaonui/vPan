@@ -61,6 +61,7 @@
 #'
 #' @param use_raster Whether render the heatmap body as a raster image. pass to \code{\link[ComplexHeatmap]{Heatmap}}
 #'
+#' @importFrom randomcoloR distinctColorPalette
 #'
 #' @export
 

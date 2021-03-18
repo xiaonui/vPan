@@ -26,7 +26,8 @@ Imports:
     ggrepel,
     ggsignif,
     grid,
-    parallel
+    parallel,
+    randomcoloR
 Suggests: 
     knitr,
     rmarkdown
