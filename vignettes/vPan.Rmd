@@ -365,7 +365,7 @@ sim_multi_plot(z_sim2)
 ## 6.1 `phen_stat()`
 
 &emsp;&emsp;Phenotype association can help researchers to understand the potential biological functions.
-For discrete values, the fisher's exact test (`fisher.test()`) will be used to determine whether the distribution of each gene is uniform. For continuous vlaues, Wilcoxon tests(`wilcox.test()`) will be performed.
+For discrete values, the fisher's exact test (`fisher.test()`) will be used to determine whether the distribution of each gene is uniform. For continuous values, Wilcoxon tests(`wilcox.test()`) will be performed.
 
 ```{r}
 z_phen <- phen_stat(z, 

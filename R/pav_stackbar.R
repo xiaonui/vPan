@@ -65,7 +65,7 @@ pav_stackbar <- function(pav_obj,
   sample <- pav_obj@sample
   sample_n <- length(sample$name)
 
-  types <- unique(z@gene$type)
+  types <- unique(pav_obj@gene$type)
 
   p_data <- do.call(cbind, lapply(types, function(x){
     freq <- colSums(pav_obj@pav_data[subset(genes_data, type == x)$name, ])

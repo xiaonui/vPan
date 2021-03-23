@@ -12,7 +12,7 @@
 
 ```
 # Check or install packages
-packages <- c("ggplot2", "data.table", "ggdendro", "ggrepel", "ggsignif", "tools")
+packages <- c("ggplot2", "data.table", "ggdendro", "ggrepel", "ggsignif", "tools", "randomcoloR", "snowfall")
 lapply(packages, function(x) {
 	if(!require(x, character.only = TRUE)) {
 		install.packages(x, dependencies = TRUE)
@@ -36,7 +36,7 @@ devtools::install_github("xiaonui/vPan", build_vignettes = TRUE)
 ```
 
 # Load the library
-library(metaFunc)
+library(vPan)
 browseVignettes("vPan")
 
 
