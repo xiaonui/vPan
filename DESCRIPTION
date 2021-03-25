@@ -20,7 +20,7 @@ Depends:
 Imports:
     ggplot2 (>= 3.3.2),
     snowfall,
-    ComplexHeatmap (>= 2.6.2),
+    ComplexHeatmap (>= 2.4.3),
     data.table,
     ggdendro,
     ggrepel,
