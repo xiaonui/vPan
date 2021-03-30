@@ -2,6 +2,8 @@
 
 #' pav_pca
 #'
+#' `pav_pca()` will perform PCA analysis of PAV data using `prcomp()`. The `center`, `scale`, and `rank` will pass to `prcomp()`.
+#'
 #' @param pav_obj A PAV object.
 #' @param center A logical value indicating whether the variables should be shifted to be
 #' zero centered, pass to \code{\link[stats]{prcomp}}.

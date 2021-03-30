@@ -1,6 +1,8 @@
 
 #' sim_stat
 #'
+#' Perform genome simulation calculations.
+#'
 #' @param pav_obj A PAV object.
 #' @param genome_type A vector of genome types. These can be any of the following: "pan", "core" and "private".
 #' @param n_simulation The number of simulations.

@@ -2,6 +2,8 @@
 
 #' pav_heatmap
 #'
+#' Plot a heatmap for a object of PAV class.
+#'
 #' @param pav_obj A PAV object.
 #' @param gene_type A vector of gene types. These can be any of the following: "core", "softcore", "distributed" and "private".
 #' @param add_phen_info A character vector of `phen_info` names.

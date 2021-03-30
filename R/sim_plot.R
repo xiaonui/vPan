@@ -2,6 +2,8 @@
 
 #' sim_plot
 #'
+#' Plot the result of genome simulation.
+#'
 #' @param sim_stat_res The result from \code{\link[vPan]{sim_stat}}.
 #' @param chart_type A character string of chart type. It should be one of "box", "errorbar", "jitter" and "ribbon".
 #'

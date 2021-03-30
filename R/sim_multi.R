@@ -3,6 +3,8 @@
 
 #' sim_multi_stat
 #'
+#' Perform genome simulation calculations for groups.
+#'
 #' @param pav_obj A PAV object.
 #' @param phen_name The name of phenotype used for grouping.
 #' @param n_simulation The number of simulations.
@@ -46,6 +48,8 @@ sim_multi_stat <- function(pav_obj,
 
 
 #' sim_multi_plot
+#'
+#' Plot the result of genome simulation.
 #'
 #' @param sim_multi_data The result from \code{\link[vPan]{sim_multi_stat}}.
 #'

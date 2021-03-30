@@ -4,6 +4,8 @@
 
 #' pav_halfviolin
 #'
+#' Plot a half-violin plot for a object of PAV class.
+#'
 #' @param pav_obj A PAV object.
 #' @param violin_color A string of color for half-violin plot.
 #' @param add_phen_info A character string of `phen_info` names.

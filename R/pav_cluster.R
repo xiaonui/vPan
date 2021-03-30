@@ -2,6 +2,8 @@
 
 #' pav_cluster
 #'
+#' Cluster samples based on PAV table.
+#'
 #' @param pav_obj A PAV object.
 #' @param cluster_distance Method to measure distance, pass to \code{\link[stats]{dist}}.
 #' @param cluster_method Method to perform hierarchical clustering, pass to \code{\link[stats]{hclust}}.

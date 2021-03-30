@@ -3,6 +3,8 @@
 
 #' phen_heatmap
 #'
+#' Plot the result of phenotypic association in a heatmap.
+#'
 #' @param pav_obj A PAV object.
 #' @param phen_stat_res The result from \code{\link[vPan]{phen_stat}}.
 #' @param add_gene_info A character vector of `gene_info` names.
@@ -205,6 +207,8 @@ phen_heatmap <- function(pav_obj,
 
 
 #' phen_block
+#'
+#' Plot the result of phenotypic association of a certain phenotype in a block chart.
 #'
 #' @param pav_obj A PAV object.
 #' @param phen_stat_res The result from \code{\link[vPan]{phen_stat}}.
@@ -422,6 +426,7 @@ phen_block <- function(pav_obj,
 
 #' phen_manhattan
 #'
+#' Plot the result of phenotypic association of a certain phenotype in a Manhattan plot.
 #'
 #' @param pav_obj A PAV object.
 #' @param phen_stat_res The result from \code{\link[vPan]{phen_stat}}.
@@ -521,6 +526,8 @@ phen_manhattan <- function(pav_obj,
 
 #' phen_bar
 #'
+#' Draw the presence/absence of a specified gene in a specified phenotype group in a barplot.
+#'
 #' @param pav_obj A PAV object.
 #' @param phen_name The name of phenotype.
 #' @param gene_name The name of gene.
@@ -586,6 +593,8 @@ phen_bar <- function(pav_obj,
 
 
 #' phen_violin
+#'
+#' Compare a phenotype in absence/presence genes.
 #'
 #' @param pav_obj A PAV object.
 #' @param phen_name The name of phenotype.

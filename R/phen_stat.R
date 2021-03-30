@@ -2,6 +2,8 @@
 
 #' phen_stat
 #'
+#' Perform phenotypic association calculations
+#'
 #' @param pav_obj A PAV object.
 #' @param phen_name The name of phenotype used for calculation.
 #' @param p_adjust_method The adjustment methods, pass to  \code{\link[stats]{p.adjust}}

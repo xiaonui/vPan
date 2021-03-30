@@ -2,6 +2,9 @@
 
 #' pav_stackbar
 #'
+#' The composition of genes in all samples can be viewed in `pav_stackbar()`.
+#' The chart consists of a hierarchical cluster tree and a bar plot.
+#'
 #' @param pav_obj A PAV object.
 #' @param show_relative A logical value indicating whether show relative value.
 #' @param add_phen_info A character string of `phen_info` names.

@@ -2,6 +2,9 @@
 
 #' pav_hist
 #'
+#' The genes can be divided into multiple types based on how many samples are shared.
+#'  `pav_hist()` integrate a ring chart and a histogram to showing the number of gene types.
+#'
 #' @param pav_obj A PAV object.
 #' @param show_ring A logical value indicating whether draw ring chart.
 #' @param ring_pos_x A numeric vector that specifies the x-location of the ring chart, ranging from 0 to 1.
